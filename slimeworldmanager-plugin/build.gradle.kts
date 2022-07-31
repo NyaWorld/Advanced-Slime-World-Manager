@@ -14,7 +14,6 @@ dependencies {
     implementation("com.github.luben:zstd-jni:1.5.2-2")
     implementation("com.zaxxer:HikariCP:5.0.1")
     implementation("org.mongodb:mongo-java-driver:3.12.11")
-    implementation("io.lettuce:lettuce-core:6.2.0.RELEASE")
     implementation("org.spongepowered:configurate-yaml:4.1.2")
     implementation("org.bstats:bstats-bukkit:3.0.0")
     implementation("commons-io:commons-io:2.11.0")
