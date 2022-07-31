@@ -19,3 +19,10 @@ jobs:
 
       - name: Execute Gradle build
         run: ./gradlew build
+
+      - name: "Upload artifacts"
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifacts
+          path: "build/libs/*"
+          retention-days: 1 # 仅保留1天。
